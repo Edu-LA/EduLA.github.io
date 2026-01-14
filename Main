@@ -10,8 +10,8 @@
     </head>
     <body>
         
-        <div class="menu">
-            <div class="menuLinks">
+        
+            <div class="menu">
             
                 <a href="#">Homepage</a>
                 <a href="#">Videogames</a>
@@ -22,7 +22,7 @@
 
             </div>
 
-        </div>
+        
 
         <div class="main">
 
