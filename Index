@@ -11,6 +11,8 @@
 
     <header class="topbar">
 
+        <img src="Images/Untitled.png" alt="Logo" class="topbar-logo">
+
         <button class="menu-toggle">
 
             <svg viewBox="0 0 24 24">
@@ -23,8 +25,6 @@
 
 
         </button>
-
-        <img src="Images/Untitled.png" alt="Logo" class="topbar-logo">
 
     </header>
 
