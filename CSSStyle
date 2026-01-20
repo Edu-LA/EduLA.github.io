@@ -63,6 +63,7 @@ body {
 .sidebar nav {
     
     margin-top: auto;
+    padding-bottom: 8vh;
 
 }
 
@@ -202,9 +203,15 @@ body {
 
     }
 
+    .menu-container {
+
+        height: 100vh;
+
+    }
+
     .sidebar {
 
-        height: auto;
+        height: 100vh;
         padding: 0;
         position: fixed;
         top: 56px; 
@@ -257,6 +264,33 @@ body {
         font-size: 18px;
         color: white;
         text-decoration: none;
+
+    }
+
+    .line {
+
+        transition: transform 0.3s ease, opacity 0.2s ease;
+        transform-origin: center;
+        transform-box: fill-box;
+
+    }
+    
+
+    .menu-toggle.active .top {
+
+        transform: translateY(7px) rotate(45deg);
+
+    }
+
+    .menu-toggle.active .middle {
+
+        opacity: 0;
+
+    }
+
+    .menu-toggle.active .bottom {
+        
+        transform: translateY(-7px) rotate(-45deg);
 
     }
     

@@ -17,9 +17,9 @@
 
             <svg viewBox="0 0 24 24">
 
-                <rect y="4" width="24" height="2" fill="white" />
-                <rect y="11" width="24" height="2" fill="white" />
-                <rect y="18" width="24" height="2" fill="white" />
+                <rect class="line top" x="0" y="4" width="24" height="2" fill="white" />
+                <rect class="line middle" x="0" y="11" width="24" height="2" fill="white" />
+                <rect class="line bottom" x="0" y="18" width="24" height="2" fill="white" />
 
             </svg>
 
