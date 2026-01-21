@@ -42,7 +42,7 @@
 
                 <ul>
 
-                    <li><a href="#">Homepage</a></li>
+                    <li><a href="Index" class="active">Homepage</a></li>
                     <li><a href="#">Videogames</a></li>
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">Image and Branding</a></li>
@@ -61,11 +61,27 @@
 
         
 
-        <div class="main-content">
+    <main class="main-content">
 
-            <p> asdiuashdi</p>
+        <div class="slideshow">
+
+            <img src="Images/Slideshow-images/EoLimg.png" alt="" class="slide s1">
+            <img src="Images/Slideshow-images/GTGimg.jpg" alt="" class="slide s2">
+            <img src="Images/Slideshow-images/HERimg.png" alt="" class="slide s3">
+
+            <div class="slide poster s4">
+
+                <img src="Images/Slideshow-images/HRimg.png" alt="">
+
+            </div>
+
+            <img src="Images/Slideshow-images/SEimg.png" alt="" class="slide s5">
+            <img src="Images/Slideshow-images/SIRSimg.png" alt="" class="slide s6">
+            <img src="Images/Slideshow-images/VRVIDimg.png" alt="" class="slide s7">
 
         </div>
+
+    </main>
     
     <script src="JS/menubuttonjs"></script>
     </body>
