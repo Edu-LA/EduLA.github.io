@@ -1,0 +1,201 @@
+@media (min-width: 769px) {
+
+    body {
+
+        display: flex;
+
+    }
+
+    .sidebar {
+
+        position: fixed;
+        left: 0;
+        top: 0;
+
+    }
+
+    .main-content {
+
+        margin-left: var(--sidebar-width);
+        width: calc(100vw - var(--sidebar-width));
+        position: relative;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+
+        overflow: hidden;
+
+    }
+
+    .topbar {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        padding: 0 16px;
+        background: #212121;
+        position: sticky;
+        top: 0;
+        z-index: 1100;
+
+    }
+
+    .topbar-logo {
+
+        display: block;
+        height: 28px;
+        transition: opacity 0.2s ease;
+
+    }
+
+    .menu-container {
+
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+
+    }
+
+    .menu-toggle {
+
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .menu-toggle svg {
+
+        width: 24px;
+        height: 24px;
+        fill: white;
+
+    }
+
+    .topbar.menu-open {
+
+        background: rgba(33, 33, 33, 0.99);
+
+    }
+
+    .topbar.menu-open .topbar-logo {
+
+        opacity: 0;
+        pointer-events: none;
+
+    }
+
+    .sidebar {
+
+        min-width: 0;
+        max-width: none;
+        height: 100vh;
+        padding: 0;
+        position: fixed;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        background: rgba(33, 33, 33, 0.99);
+        transition: max-height 0.35s ease;
+        z-index: 1000;
+        border-right: 0px solid;
+
+    }
+
+    .sidebar.open {
+
+        max-height: calc(100vh - 56px);
+
+    }
+
+    .sidebar-logo {
+
+        padding: 24px 0;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+
+    }
+
+    .sidebar.open .sidebar-logo {
+
+        opacity: 1;
+
+    }
+
+    .sidebar nav ul {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding-bottom: 24px;
+
+    }
+
+    .sidebar a {
+
+        font-size: 18px;
+
+    }
+
+    .line {
+
+        transition: transform 0.3s ease, opacity 0.2s ease;
+        transform-origin: center;
+        transform-box: fill-box;
+
+    }
+
+    .menu-toggle.active .top {
+
+        transform: translateY(7px) rotate(45deg);
+
+    }
+
+    .menu-toggle.active .middle {
+
+        opacity: 0;
+
+    }
+
+    .menu-toggle.active .bottom {
+
+        transform: translateY(-7px) rotate(-45deg);
+
+    }
+
+    .main-content {
+
+        background-image: url('../Images/Slideshow-images/mobile-hero.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .slideshow {
+
+        display: none;
+
+    }
+
+    .slide {
+
+        display: none !important; 
+        animation: none !important; 
+        opacity: 0 !important; 
+
+    }
+
+}

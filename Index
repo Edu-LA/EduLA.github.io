@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <title>Home page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="CSSStyle">
+        <link rel="stylesheet" href="CSS-Files/Base">
+        <link rel="stylesheet" href="CSS-Files/Layout">
+        <link rel="stylesheet" href="CSS-Files/Slideshow">
+        <link rel="stylesheet" href="CSS-Files/Responsive">
     </head>
 
     <body>
@@ -56,9 +59,6 @@
         </aside>
 
     </div>
-
-    
-
         
 
     <main class="main-content">
@@ -78,6 +78,7 @@
             <img src="Images/Slideshow-images/SEimg.png" alt="" class="slide s5">
             <img src="Images/Slideshow-images/SIRSimg.png" alt="" class="slide s6">
             <img src="Images/Slideshow-images/VRVIDimg.png" alt="" class="slide s7">
+            <img src="Images/Slideshow-images/LNJimg.png" alt="" class="slide s8">
 
         </div>
 
