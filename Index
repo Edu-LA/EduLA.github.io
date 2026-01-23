@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <title>Home page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="CSS-Files/Base">
-        <link rel="stylesheet" href="CSS-Files/Layout">
-        <link rel="stylesheet" href="CSS-Files/Slideshow">
-        <link rel="stylesheet" href="CSS-Files/Responsive">
+        <link rel="stylesheet" href="CSS-Files/Base.css">
+        <link rel="stylesheet" href="CSS-Files/Layout.css">
+        <link rel="stylesheet" href="CSS-Files/Slideshow.css">
+        <link rel="stylesheet" href="CSS-Files/Responsive.css">
     </head>
 
     <body>
@@ -46,11 +46,11 @@
                 <ul>
 
                     <li><a href="Index" class="active">Homepage</a></li>
-                    <li><a href="#">Videogames</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Image and Branding</a></li>
-                    <li><a href="#">Writing</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="Videogames">Videogames</a></li>
+                    <li><a href="Videos">Videos</a></li>
+                    <li><a href="Image-branding">Image and Branding</a></li>
+                    <li><a href="Writing">Writing</a></li>
+                    <li><a href="About">About</a></li>
 
                 </ul>
 
@@ -61,7 +61,7 @@
     </div>
         
 
-    <main class="main-content">
+    <main class="main-content homepage">
 
         <div class="slideshow">
 

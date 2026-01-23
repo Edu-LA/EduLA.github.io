@@ -175,15 +175,6 @@
 
     }
 
-    .main-content {
-
-        background-image: url('../Images/Slideshow-images/mobile-hero.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-    }
-
     .slideshow {
 
         display: none;
