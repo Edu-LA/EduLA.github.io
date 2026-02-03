@@ -174,37 +174,25 @@
 
                 <div class="socials-grid">
 
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-link">
+                    <a href="https://www.linkedin.com/in/eduardo-amaral-83309a27a/" target="_blank" rel="noopener" class="social-link">
 
                         <img src="Images/Socials/linkedin-icon.png" alt="LinkedIn">
 
                     </a>
 
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-link">
-
-                        <img src="Images/Socials/github-icon.png" alt="GitHub">
-
-                    </a>
-
-                    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                    <a href="https://x.com/Edu_LA18" target="_blank" rel="noopener" class="social-link">
 
                         <img src="Images/Socials/twitter-icon.png" alt="Twitter/X">
 
                     </a>
 
-                    <a href="https://instagram.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                    <a href="https://www.instagram.com/la_edu18/" target="_blank" rel="noopener" class="social-link">
 
                         <img src="Images/Socials/instagram-icon.png" alt="Instagram">
 
                     </a>
 
-                    <a href="https://artstation.com/yourusername" target="_blank" rel="noopener" class="social-link">
-
-                        <img src="Images/Socials/artstation-icon.png" alt="ArtStation">
-
-                    </a>
-
-                    <a href="https://yourusername.itch.io" target="_blank" rel="noopener" class="social-link">
+                    <a href="https://natsu-la.itch.io/" target="_blank" rel="noopener" class="social-link">
 
                         <img src="Images/Socials/itch-icon.png" alt="itch.io">
 

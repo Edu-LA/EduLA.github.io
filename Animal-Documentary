@@ -96,12 +96,28 @@
             </section>
             
 
-            <!-- Create a video query here.-->
+            <section class="project-video">
+                
+                <h2>Watch the Documentary</h2>
+
+                <div class="video-container">
+
+                    <iframe 
+                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                        title="Animal Documentary - Codename: VR" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <p class="video-caption">Animal Documentary - Codename: VR (2023) - A stylized documentary exploring a village affected by a fictional virus.</p>
+
+            </section>
             
         </div>
     </main>
     
     <script src="JS/menubuttonjs"></script>
-    <script src="JS/gallery"></script>
 </body>
 </html>
