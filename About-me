@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS-Files/Base.css">
     <link rel="stylesheet" href="CSS-Files/Layout.css">
-    <link rel="stylesheet" href="CSS-Files/About.css">
     <link rel="stylesheet" href="CSS-Files/Responsive.css">
+    <link rel="stylesheet" href="CSS-Files/About.css">
 
 </head>
 
@@ -168,6 +168,52 @@
 
             </section>
             
+            <section class="about-socials">
+
+                <h2>Connect With Me</h2>
+
+                <div class="socials-grid">
+
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-link">
+
+                        <img src="Images/Socials/linkedin-icon.png" alt="LinkedIn">
+
+                    </a>
+
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-link">
+
+                        <img src="Images/Socials/github-icon.png" alt="GitHub">
+
+                    </a>
+
+                    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="social-link">
+
+                        <img src="Images/Socials/twitter-icon.png" alt="Twitter/X">
+
+                    </a>
+
+                    <a href="https://instagram.com/yourusername" target="_blank" rel="noopener" class="social-link">
+
+                        <img src="Images/Socials/instagram-icon.png" alt="Instagram">
+
+                    </a>
+
+                    <a href="https://artstation.com/yourusername" target="_blank" rel="noopener" class="social-link">
+
+                        <img src="Images/Socials/artstation-icon.png" alt="ArtStation">
+
+                    </a>
+
+                    <a href="https://yourusername.itch.io" target="_blank" rel="noopener" class="social-link">
+
+                        <img src="Images/Socials/itch-icon.png" alt="itch.io">
+
+                    </a>
+                    
+                </div>
+            </section>
+
+
         </div>
         
     </main>

@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS-Files/Base.css">
     <link rel="stylesheet" href="CSS-Files/Layout.css">
-    <link rel="stylesheet" href="CSS-Files/ProjectDetail.css">
     <link rel="stylesheet" href="CSS-Files/Responsive.css">
+    <link rel="stylesheet" href="CSS-Files/ProjectDetail.css">
 
 </head>
 

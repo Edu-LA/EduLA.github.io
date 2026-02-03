@@ -1,6 +1,15 @@
+.main-content {
+
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+    
+}
 
 .about-container {
-    
+
     display: block;
     overflow-y: auto;
     overflow-x: hidden;
@@ -11,6 +20,7 @@
     margin: 0 auto;
 
 }
+
 
 .about-intro {
 
@@ -65,31 +75,95 @@
 
 
 .about-skills {
+
     margin-bottom: 100px;
+
 }
 
 .about-skills h2 {
+
     font-size: 36px;
     margin: 0 0 24px 0;
     color: #212121;
+
 }
 
 .skills-list {
+
     list-style: none;
     padding: 0;
     margin: 0;
+
+}
+
+
+.about-socials h2 {
+
+    font-size: 36px;
+    margin: 0 0 32px 0;
+    color: #212121;
+
+}
+
+.socials-grid {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.social-link {
+
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+
+}
+
+.social-link:hover {
+
+    border-color: #212121;
+    transform: translateY(-4px);
+
+}
+
+.social-link img {
+
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+
 }
 
 .skills-list li {
+
     font-size: 18px;
     line-height: 1.8;
     color: #666;
     padding: 8px 0;
     border-bottom: 1px solid #e0e0e0;
+
 }
 
 .skills-list li:last-child {
+
     border-bottom: none;
+
+}
+
+
+.about-qualifications {
+
+    margin-bottom: 100px;
+
 }
 
 .about-qualifications h2 {
@@ -161,6 +235,12 @@
 
 @media (max-width: 768px) {
 
+    body {
+
+        overflow: auto;
+
+    }
+
     .about-container {
 
         padding: 40px 20px;
@@ -205,20 +285,14 @@
     .about-qualifications h2 {
 
         font-size: 28px;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
 
     }
     
-    .skills-grid {
+    .skills-list li {
 
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 16px;
-
-    }
-    
-    .skill-item {
-
-        padding: 16px;
+        font-size: 16px;
+        padding: 6px 0;
 
     }
     
@@ -255,4 +329,32 @@
         font-size: 14px;
 
     }
+    
+    .about-socials h2 {
+
+        font-size: 28px;
+        margin-bottom: 24px;
+
+    }
+    
+    .socials-grid {
+
+        gap: 16px;
+
+    }
+    
+    .social-link {
+
+        width: 48px;
+        height: 48px;
+
+    }
+    
+    .social-link img {
+
+        width: 28px;
+        height: 28px;
+
+    }
+
 }
