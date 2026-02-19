@@ -6,15 +6,35 @@
 
 }
 
+@font-face {
+
+    font-family: "Inter";
+    src: url(../Fonts/Inter_24pt-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+
+    font-family: "WorkSans";
+    src: url(../Fonts/WorkSans-Bold.ttf) format('truetype');
+
+}
+
 ol, ul {
 
     list-style: none;
 
 }
 
+h1, h2, h3 {
+
+    font-family: "WorkSans", sans-serif;
+
+}
+
 body {
 
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     background: #f6f6f6;
     overflow-x: hidden;
 
