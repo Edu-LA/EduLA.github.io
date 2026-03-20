@@ -205,7 +205,7 @@
     font-size: 16px;
     line-height: 1.6;
     color: #555;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
 
 }
@@ -261,7 +261,7 @@
     line-height: 1.6;
     color: #555;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
@@ -351,6 +351,7 @@
     .caption-text {
 
         font-size: 14px;
+        margin: auto;
 
     }
 
@@ -370,6 +371,7 @@
     .video-caption {
 
         font-size: 14px;
+        align-items: center;
 
     }
 

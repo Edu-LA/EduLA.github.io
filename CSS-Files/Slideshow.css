@@ -158,34 +158,47 @@
 
 .hero-button.primary {
 
-    background-color: #FF7800;
-    color: white;
+    background-color: transparent;
+    color: #FF7800;
     border: 1px solid #FF7800;
 
 }
 
 .hero-button.primary:hover {
     
-    background-color: #ff8d24;
-    border-color: #ff8d24;
+    background-color: #FF7800;
+    color: white;
     transform: translateY(-2px);
 
 }
 
 .hero-button.secondary {
 
-    background-color: rgba(255, 255, 255, 0.08);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    backdrop-filter: blur(4px);
+    background-color: transparent;
+    color: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.35);
 
 }
 
 .hero-button.secondary:hover {
 
-    background-color: rgba(255, 255, 255, 0.16);
-    border-color: rgba(255, 255, 255, 0.55);
+    color: white;
+    border-color: white;
     transform: translateY(-2px);
+    
+}
+
+.hero-button span {
+
+    display: inline-block;
+    margin-left: 0.4rem;
+    transition: transform 0.2s ease;
+
+}
+
+.hero-button:hover span {
+
+    transform: translateX(4px);
     
 }
 
